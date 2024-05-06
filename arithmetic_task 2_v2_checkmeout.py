@@ -1,0 +1,7 @@
+savings = int (input ("Whats in your savings_account"))
+interest = float(.07)
+years_at_bank = int (input ("What is the number of years you plan to save with our bank?"))
+total_interest = (years_at_bank * interest)
+total_interest_of_savings = (savings * total_interest)
+total_savings_with_interest = (savings + total_interest_of_savings )
+print ((total_savings_with_interest), "This is what your projected to have!")
